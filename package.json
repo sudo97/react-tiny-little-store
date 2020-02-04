@@ -1,0 +1,24 @@
+{
+  "name": "react-tiny-little-store",
+  "version": "1.0.0",
+  "description": "Reac connector for tiny-little-store",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudo97/react-tiny-little-store.git"
+  },
+  "keywords": [
+    "tiny-little-store",
+    "state-management",
+    "store"
+  ],
+  "author": "sudo97",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sudo97/react-tiny-little-store/issues"
+  },
+  "homepage": "https://github.com/sudo97/react-tiny-little-store#readme"
+}
