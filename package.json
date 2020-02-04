@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/sudo97/react-tiny-little-store/issues"
   },
-  "homepage": "https://github.com/sudo97/react-tiny-little-store#readme"
+  "homepage": "https://github.com/sudo97/react-tiny-little-store#readme",
+  "dependencies": {
+    "react": "^16.12.0"
+  }
 }
