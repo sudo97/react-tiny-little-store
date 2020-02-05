@@ -23,5 +23,8 @@
   "homepage": "https://github.com/sudo97/react-tiny-little-store#readme",
   "dependencies": {
     "react": "^16.12.0"
+  },
+  "peerDependencies": {
+    "tiny-little-store": "1.0.6"
   }
 }
