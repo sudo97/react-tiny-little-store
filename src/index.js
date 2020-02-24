@@ -4,7 +4,7 @@ export default store => mapStateToProps => WrappedComponent => {
     componentDidMount() {
       const map = mapStateToProps || (s => s);
       this.unsubscribe = store.subscribe(store => {
-        this.setState({ ...mapStateToProps(store) });
+        this.setState({ ...map(store) });
       });
     }
 
