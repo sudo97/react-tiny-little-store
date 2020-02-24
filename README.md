@@ -33,14 +33,14 @@ const initState = {
 }
 
 const store = createStore(initState);
-const { updateStore } = store;
+const { updateStore, mutation } = store;
+
 export const increment = () => {
   updateStore(({counter}) => ({counter: counter+1}))
 }
 
-export const decrement = () => {
-  updateStore(({counter}) => ({counter: counter-1}))
-}
+// or alternatievely
+export const decrement = mutation({counter}) => ({counter: counter-1}));
 
 export const connect = makeConnector(store);
 ```
