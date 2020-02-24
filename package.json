@@ -1,6 +1,6 @@
 {
   "name": "react-tiny-little-store",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Reac connector for tiny-little-store",
   "main": "dist/index.js",
   "scripts": {
