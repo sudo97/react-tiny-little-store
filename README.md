@@ -20,9 +20,9 @@ export const connect = makeConector(store)
 
 then you can use this connect in the similar manner as the heavenly borned Redux does.
 
-`connect` is a HOC, you need to pass `mapStateToProps` to it, but you cannot `mapDispatchToProps` here, why? because you don't dispatch events in tiny-little-store, you just use store.updateStore.
+`connect` is a HOC, you need to pass `mapStateToProps` to it(or don't pass, then you will get the whole store into your props, you nauhgty hacker), but you cannot `mapDispatchToProps` here, why? because you don't dispatch events in tiny-little-store, you just use store.updateStore, or call mutations.
 
-the best way is to have module that exports connect and some functions that rely on updateStore, so you don't use that directly inside your components.
+the best way is to have module that exports connect and some functions that rely on updateStore or created with `mutation()` wrapper, so you don't use that directly inside your components.
 
 ```javascript
 import makeConnector from "react-tiny-little-store"
