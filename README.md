@@ -2,6 +2,8 @@
 
 React connector for tiny-little-store
 
+See [example](https://codesandbox.io/embed/old-leftpad-4i96p?fontsize=14&hidenavigation=1&theme=dark)
+
 ## Getting Started
 
 `npm install tiny-little-store react-tiny-little-store`
