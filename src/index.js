@@ -19,7 +19,7 @@ export default (store) => (mapStateToProps) => (WrappedComponent) => {
   };
 };
 
-export const useSelector = (store) => (selector = (s) => s) => {
+export const createUseSelector = (store) => (selector = (s) => s) => {
   const [val, setVal] = useState(null);
   useEffect(() => {
     store.subscribe((store) => {
