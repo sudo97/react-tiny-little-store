@@ -1,7 +1,7 @@
 {
   "name": "react-tiny-little-store",
   "version": "1.1.3",
-  "description": "Reac connector for tiny-little-store",
+  "description": "React connector for tiny-little-store",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -25,19 +25,19 @@
   },
   "homepage": "https://github.com/sudo97/react-tiny-little-store#readme",
   "dependencies": {
-    "@babel/preset-react": "^7.8.3",
-    "react": "^16.12.0"
+    "@babel/preset-react": "^7.10.4",
+    "react": "^16.13.1"
   },
   "peerDependencies": {
     "tiny-little-store": "1.0.6"
   },
   "devDependencies": {
-    "@babel/cli": "^7.8.4",
-    "@babel/core": "^7.8.4",
-    "@babel/node": "^7.8.4",
-    "@babel/plugin-syntax-jsx": "^7.8.3",
-    "@babel/preset-env": "^7.8.4",
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/node": "^7.10.5",
+    "@babel/plugin-syntax-jsx": "^7.10.4",
+    "@babel/preset-env": "^7.11.5",
     "install": "^0.13.0",
-    "npm": "^6.13.7"
+    "npm": "^6.14.8"
   }
 }
