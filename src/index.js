@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 export default (store) => (mapStateToProps) => (WrappedComponent) => {
   return class HOC extends React.Component {
     componentDidMount() {
